@@ -1,0 +1,113 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 6rem;
+}
+
+.img-container img {
+    width: 450px;
+    height: 450px;
+    border-radius: 8%;
+    margin-top: 8%;
+}
+
+.container .text-container {
+    width: 50%;
+    /* Adjust the width as needed */
+    padding-right: 3rem;
+    margin-top: -3%;
+}
+
+.container .text-container h1,
+p {
+    color: azure;
+}
+
+.container .text-container h1 {
+    font-size: 50px;
+}
+
+.form-container {
+    margin-top: 20px;
+    width: 30%;
+}
+
+.form-container label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.form-container input[type="number"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-container button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+
+.second-section {
+    height: 200px;
+    width: 100%;
+}
+
+#test {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -3%;
+}
+
+#btn {
+    width: 104%;
+}
+
+.calorie-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Semi-transparent background */
+    backdrop-filter: blur(5px);
+}
+
+.calorie-popup .content {
+    text-align: center;
+}
+
+/* .base-blur {
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px);
+    z-index: 1;
+} */
+
+.calorie-popup button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}

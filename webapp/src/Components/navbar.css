@@ -1,0 +1,56 @@
+.navbar {
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+
+.contents-right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    gap: 50px;
+}
+
+.btns {
+    margin-top: 17px;
+    margin-left: 10px;
+}
+
+.signin {
+    margin-right: 5px;
+    border-radius: 5px;
+
+}
+
+p {
+    margin-right: 10px;
+}
+
+/* * {
+    background-color: #040c18;
+    color: white;
+} */
+
+.signup {
+    background-color: #66fcf1;
+    color: black;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .contents-right {
+        flex-direction: column;
+    }
+
+    .content {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+h2 {
+    padding-left: 40px;
+}
